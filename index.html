@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>FortuneTeller</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <div class="form-group">
+          <p>Lucky Events</p>
+          <input type="checkbox" name="lucky" value="clover"> Finding a fourleaf clover<br>
+          <input type="checkbox" name="lucky" value="penny"> Finding a penny<br>
+          <input type="checkbox" name="lucky" value="rainbow">Seeing a rainbow<br>
+          <input type="checkbox" name="lucky" value="star"> Seeing a shooting star<br>
+          <input type="checkbox" name="lucky" value="fountain">Falling into a fountain<br>
+          <p>
+            Unlucky Events
+          </p>
+          <input type="checkbox" name="unlucky" value="mirror">Broken Mirror<br>
+          <input type="checkbox" name="unlucky" value="walk">Walking under a ladder.<br>
+          <input type="checkbox" name="unlucky" value="umbrella">Opening an umbrella inside.<br>
+          <input type="checkbox" name="unlucky" value="sweep">Sweeping a person's foot with a broom<br>
+          <input type="checkbox" name="unlucky" value="crack">Stepping on a crack<br>
+
+          <button type="submit" name="btn">Submit!</button>
+        </div>
+      </form>
+      <div id="output">
+        <p>
+          You are <span id="outcome"></span>!
+        </p>
+      </div>
+    </body>
+  </html>
